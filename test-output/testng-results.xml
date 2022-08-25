@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="16" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-25T10:25:30 IST" name="Suite" finished-at="2022-08-25T10:28:35 IST" duration-ms="185762">
+    <groups>
+      <group name="Regression">
+        <method signature="VerifyDataFlowBtwnContactsAndOpportunityTest.verifyDataFlowBtwnContactAndOpportuniy()[pri:0, instance:com.OPPORTUNITY.VerifyDataFlowBtwnContactsAndOpportunityTest@2a265ea9]" name="verifyDataFlowBtwnContactAndOpportuniy" class="com.OPPORTUNITY.VerifyDataFlowBtwnContactsAndOpportunityTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="CreateNewLeadTest.createLead()[pri:0, instance:com.LEAD.CreateNewLeadTest@11392934]" name="createLead" class="com.LEAD.CreateNewLeadTest"/>
+        <method signature="TC_BW_02Test.createOrg()[pri:0, instance:com.BUSINESSWORKFLOW.TC_BW_02Test@6d4d66d2]" name="createOrg" class="com.BUSINESSWORKFLOW.TC_BW_02Test"/>
+        <method signature="TC_BW_02Test.createProd()[pri:0, instance:com.BUSINESSWORKFLOW.TC_BW_02Test@6d4d66d2]" name="createProd" class="com.BUSINESSWORKFLOW.TC_BW_02Test"/>
+        <method signature="VerifyDataFlowBtwnContactsAndOpportunityTest.preconditionCreateContact()[pri:0, instance:com.OPPORTUNITY.VerifyDataFlowBtwnContactsAndOpportunityTest@2a265ea9]" name="preconditionCreateContact" class="com.OPPORTUNITY.VerifyDataFlowBtwnContactsAndOpportunityTest"/>
+        <method signature="CreateNewProductTest.createNewProduct()[pri:0, instance:com.PRODUCT.CreateNewProductTest@2ddc9a9f]" name="createNewProduct" class="com.PRODUCT.CreateNewProductTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-08-25T10:25:30 IST" name="Test" finished-at="2022-08-25T10:28:35 IST" duration-ms="185762">
+      <class name="com.LEAD.CreateNewLeadTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.LEAD.CreateNewLeadTest@11392934]" started-at="2022-08-25T10:27:52 IST" name="launchBrowser" finished-at="2022-08-25T10:27:54 IST" duration-ms="2501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.LEAD.CreateNewLeadTest@11392934]" started-at="2022-08-25T10:27:54 IST" name="loginToApplication" finished-at="2022-08-25T10:28:01 IST" duration-ms="7351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createLead()[pri:0, instance:com.LEAD.CreateNewLeadTest@11392934]" started-at="2022-08-25T10:28:01 IST" name="createLead" finished-at="2022-08-25T10:28:09 IST" duration-ms="7220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:com.LEAD.CreateNewLeadTest@11392934]" started-at="2022-08-25T10:28:09 IST" name="logOutFromApplication" finished-at="2022-08-25T10:28:10 IST" duration-ms="1172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.LEAD.CreateNewLeadTest@11392934]" started-at="2022-08-25T10:28:10 IST" name="closeBrowser" finished-at="2022-08-25T10:28:10 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.LEAD.CreateNewLeadTest -->
+      <class name="com.BUSINESSWORKFLOW.TC_BW_02Test">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.BUSINESSWORKFLOW.TC_BW_02Test@6d4d66d2]" started-at="2022-08-25T10:26:33 IST" name="launchBrowser" finished-at="2022-08-25T10:26:37 IST" duration-ms="3495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.BUSINESSWORKFLOW.TC_BW_02Test@6d4d66d2]" started-at="2022-08-25T10:26:37 IST" name="loginToApplication" finished-at="2022-08-25T10:26:41 IST" duration-ms="4439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createOrg()[pri:0, instance:com.BUSINESSWORKFLOW.TC_BW_02Test@6d4d66d2]" started-at="2022-08-25T10:26:41 IST" name="createOrg" finished-at="2022-08-25T10:26:50 IST" duration-ms="8968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:com.BUSINESSWORKFLOW.TC_BW_02Test@6d4d66d2]" started-at="2022-08-25T10:26:50 IST" name="logOutFromApplication" finished-at="2022-08-25T10:26:51 IST" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.BUSINESSWORKFLOW.TC_BW_02Test@6d4d66d2]" started-at="2022-08-25T10:26:51 IST" name="loginToApplication" finished-at="2022-08-25T10:26:53 IST" duration-ms="2114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createProd()[pri:0, instance:com.BUSINESSWORKFLOW.TC_BW_02Test@6d4d66d2]" started-at="2022-08-25T10:26:53 IST" name="createProd" finished-at="2022-08-25T10:27:01 IST" duration-ms="7922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProd -->
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:com.BUSINESSWORKFLOW.TC_BW_02Test@6d4d66d2]" started-at="2022-08-25T10:27:01 IST" name="logOutFromApplication" finished-at="2022-08-25T10:27:02 IST" duration-ms="1102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.BUSINESSWORKFLOW.TC_BW_02Test@6d4d66d2]" started-at="2022-08-25T10:27:02 IST" name="loginToApplication" finished-at="2022-08-25T10:27:04 IST" duration-ms="2101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createSales()[pri:0, instance:com.BUSINESSWORKFLOW.TC_BW_02Test@6d4d66d2]" started-at="2022-08-25T10:27:04 IST" name="createSales" finished-at="2022-08-25T10:27:18 IST" depends-on-methods="com.BUSINESSWORKFLOW.TC_BW_02Test.createOrg, com.BUSINESSWORKFLOW.TC_BW_02Test.createProd" duration-ms="13850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSales -->
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:com.BUSINESSWORKFLOW.TC_BW_02Test@6d4d66d2]" started-at="2022-08-25T10:27:18 IST" name="logOutFromApplication" finished-at="2022-08-25T10:27:20 IST" duration-ms="1332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.BUSINESSWORKFLOW.TC_BW_02Test@6d4d66d2]" started-at="2022-08-25T10:27:20 IST" name="closeBrowser" finished-at="2022-08-25T10:27:20 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.BUSINESSWORKFLOW.TC_BW_02Test -->
+      <class name="com.PRODUCT.CreateNewProductTest">
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:com.PRODUCT.CreateNewProductTest@2ddc9a9f]" started-at="2022-08-25T10:25:23 IST" name="connectDB" finished-at="2022-08-25T10:25:30 IST" duration-ms="6147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDB -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.PRODUCT.CreateNewProductTest@2ddc9a9f]" started-at="2022-08-25T10:25:30 IST" name="launchBrowser" finished-at="2022-08-25T10:26:05 IST" duration-ms="35291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.PRODUCT.CreateNewProductTest@2ddc9a9f]" started-at="2022-08-25T10:26:05 IST" name="loginToApplication" finished-at="2022-08-25T10:26:16 IST" duration-ms="10819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createNewProduct()[pri:0, instance:com.PRODUCT.CreateNewProductTest@2ddc9a9f]" started-at="2022-08-25T10:26:16 IST" name="createNewProduct" finished-at="2022-08-25T10:26:31 IST" duration-ms="15147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewProduct -->
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:com.PRODUCT.CreateNewProductTest@2ddc9a9f]" started-at="2022-08-25T10:26:31 IST" name="logOutFromApplication" finished-at="2022-08-25T10:26:32 IST" duration-ms="1302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.PRODUCT.CreateNewProductTest@2ddc9a9f]" started-at="2022-08-25T10:26:32 IST" name="closeBrowser" finished-at="2022-08-25T10:26:33 IST" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:com.PRODUCT.CreateNewProductTest@2ddc9a9f]" started-at="2022-08-25T10:28:36 IST" name="closeDB" finished-at="2022-08-25T10:28:36 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+      </class> <!-- com.PRODUCT.CreateNewProductTest -->
+      <class name="com.CAMPAIGN.DuplicateCampaignTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.CAMPAIGN.DuplicateCampaignTest@76a4ebf2]" started-at="2022-08-25T10:28:10 IST" name="launchBrowser" finished-at="2022-08-25T10:28:11 IST" duration-ms="1131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.CAMPAIGN.DuplicateCampaignTest@76a4ebf2]" started-at="2022-08-25T10:28:11 IST" name="loginToApplication" finished-at="2022-08-25T10:28:20 IST" duration-ms="8973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="duplicateCampaignTest()[pri:0, instance:com.CAMPAIGN.DuplicateCampaignTest@76a4ebf2]" started-at="2022-08-25T10:28:20 IST" name="duplicateCampaignTest" finished-at="2022-08-25T10:28:34 IST" duration-ms="13956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateCampaignTest -->
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:com.CAMPAIGN.DuplicateCampaignTest@76a4ebf2]" started-at="2022-08-25T10:28:34 IST" name="logOutFromApplication" finished-at="2022-08-25T10:28:35 IST" duration-ms="1045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.CAMPAIGN.DuplicateCampaignTest@76a4ebf2]" started-at="2022-08-25T10:28:35 IST" name="closeBrowser" finished-at="2022-08-25T10:28:35 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.CAMPAIGN.DuplicateCampaignTest -->
+      <class name="com.OPPORTUNITY.VerifyDataFlowBtwnContactsAndOpportunityTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.OPPORTUNITY.VerifyDataFlowBtwnContactsAndOpportunityTest@2a265ea9]" started-at="2022-08-25T10:27:20 IST" name="launchBrowser" finished-at="2022-08-25T10:27:22 IST" duration-ms="1693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.OPPORTUNITY.VerifyDataFlowBtwnContactsAndOpportunityTest@2a265ea9]" started-at="2022-08-25T10:27:22 IST" name="loginToApplication" finished-at="2022-08-25T10:27:29 IST" duration-ms="7167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="preconditionCreateContact()[pri:0, instance:com.OPPORTUNITY.VerifyDataFlowBtwnContactsAndOpportunityTest@2a265ea9]" started-at="2022-08-25T10:27:29 IST" name="preconditionCreateContact" finished-at="2022-08-25T10:27:37 IST" duration-ms="7751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preconditionCreateContact -->
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:com.OPPORTUNITY.VerifyDataFlowBtwnContactsAndOpportunityTest@2a265ea9]" started-at="2022-08-25T10:27:37 IST" name="logOutFromApplication" finished-at="2022-08-25T10:27:38 IST" duration-ms="1171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.OPPORTUNITY.VerifyDataFlowBtwnContactsAndOpportunityTest@2a265ea9]" started-at="2022-08-25T10:27:38 IST" name="loginToApplication" finished-at="2022-08-25T10:27:40 IST" duration-ms="2130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyDataFlowBtwnContactAndOpportuniy()[pri:0, instance:com.OPPORTUNITY.VerifyDataFlowBtwnContactsAndOpportunityTest@2a265ea9]" started-at="2022-08-25T10:27:40 IST" name="verifyDataFlowBtwnContactAndOpportuniy" finished-at="2022-08-25T10:27:50 IST" depends-on-methods="com.OPPORTUNITY.VerifyDataFlowBtwnContactsAndOpportunityTest.preconditionCreateContact" duration-ms="9768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDataFlowBtwnContactAndOpportuniy -->
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:com.OPPORTUNITY.VerifyDataFlowBtwnContactsAndOpportunityTest@2a265ea9]" started-at="2022-08-25T10:27:50 IST" name="logOutFromApplication" finished-at="2022-08-25T10:27:51 IST" duration-ms="1521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.OPPORTUNITY.VerifyDataFlowBtwnContactsAndOpportunityTest@2a265ea9]" started-at="2022-08-25T10:27:51 IST" name="closeBrowser" finished-at="2022-08-25T10:27:52 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.OPPORTUNITY.VerifyDataFlowBtwnContactsAndOpportunityTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

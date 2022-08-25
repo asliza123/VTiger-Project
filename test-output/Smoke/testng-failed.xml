@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.PRODUCT.CreateNewProductTestNG">
+        <methods>
+          <include name="createNewProduct"/>
+        </methods>
+      </class> <!-- com.PRODUCT.CreateNewProductTestNG -->
+      <class name="com.BUSINESSWORKFLOW.TC_BW_02">
+        <methods>
+          <include name="createOrg"/>
+          <include name="createProd"/>
+        </methods>
+      </class> <!-- com.BUSINESSWORKFLOW.TC_BW_02 -->
+      <class name="com.OPPORTUNITY.VerifyDataFlowBtwnContactsAndOpportunityTestNG">
+        <methods>
+          <include name="preconditionCreateContact"/>
+        </methods>
+      </class> <!-- com.OPPORTUNITY.VerifyDataFlowBtwnContactsAndOpportunityTestNG -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Smoke] -->
