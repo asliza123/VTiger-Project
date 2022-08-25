@@ -16,6 +16,16 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  *
  */
 public class WebDriverUtility {
+	/**
+	 * @author Asmita
+	 * it's for maximizing the browser
+	 * @param driver 
+	 */
+	public void maximizeTheWindow(WebDriver driver)
+	{
+		driver.manage().window().maximize();
+	}
+	
 /**
  * used for implicitly wait of elements in Document Object Model(DOM) page
  * @param driver

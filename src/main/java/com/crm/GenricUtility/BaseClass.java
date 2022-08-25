@@ -26,7 +26,6 @@ public class BaseClass{
 	public LaunchBrowser lb=new LaunchBrowser();
 	public WebDriverUtility wLib=new WebDriverUtility();
 	
-	
 	@BeforeSuite (groups = {"Smoke", "Regression"})
 	public void connectDB() throws SQLException {
 		dLib.connectDB();
@@ -44,6 +43,7 @@ public class BaseClass{
 	@BeforeMethod(groups = {"Smoke", "Regression"})
 	public void loginToApplication() throws IOException {
 		GetLoginPageAndLogin login=new GetLoginPageAndLogin(driver);
+		wLib.maximizeTheWindow(driver);
 		login.loginToApp();	
 		System.out.println("Before Method executed");
 	}
